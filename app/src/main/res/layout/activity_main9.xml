@@ -39,6 +39,27 @@
                 android:layout_marginStart="160dp"
                 />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_1"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lead_technical_officer"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="65dp"
+                />
+
             <View
                 android:id="@+id/sample2"
                 android:layout_width="120dp"
@@ -70,6 +91,27 @@
                 android:layout_marginStart="20dp"
                 />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_2"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="170dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lead_technical_officer"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="195dp"
+                />
+
             <View
                 android:layout_width="220dp"
                 android:layout_height="60dp"
@@ -90,6 +132,27 @@
                 android:layout_marginStart="20dp"
                 />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_3"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="300dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lead_technical_officer"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="325dp"
+                />
+
             <View
                 android:layout_width="220dp"
                 android:layout_height="60dp"
@@ -97,6 +160,27 @@
                 android:backgroundTint="@color/white"
                 android:layout_marginTop="430dp"
                 android:layout_marginStart="160dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_4"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="430dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lead_technical_officer"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="455dp"
                 />
 
             <View
@@ -117,6 +201,27 @@
                 android:backgroundTint="@color/white"
                 android:layout_marginTop="560dp"
                 android:layout_marginStart="160dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_5"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="560dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lead_technical_officer"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="585dp"
                 />
 
 
@@ -286,9 +391,9 @@
 
     <Spinner
         android:id="@+id/spinner_filter"
-        android:layout_width="70dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="270dp"
+        android:layout_marginStart="280dp"
         android:layout_marginTop="200dp"
         android:background="@drawable/curved_square_2"
         android:backgroundTint="#bce1e2"

@@ -160,6 +160,12 @@
     <string name="status">Status</string>
     <string name="description">Description</string>
     <string name="name0">Name</string>
+    <string name="sample_1">Sample 1</string>
+    <string name="lead_technical_officer">Lead - Technical Officer</string>
+    <string name="sample_2">Sample 2</string>
+    <string name="sample_3">Sample 3</string>
+    <string name="sample_4">Sample 4</string>
+    <string name="sample_5">Sample 5</string>
 
 
 </resources>
