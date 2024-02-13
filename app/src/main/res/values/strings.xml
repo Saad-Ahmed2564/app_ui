@@ -152,6 +152,14 @@
     <string name="android_developer">Android Developer</string>
     <string name="jane">Jane</string>
     <string name="software_engineer">Software Engineer</string>
+    <string name="available">Available</string>
+    <string name="add_new_mentor">Add New Mentor</string>
+    <string name="help_us_expand">Help us expand</string>
+    <string name="upload_photo">Upload photo</string>
+    <string name="upload_video">Upload video</string>
+    <string name="status">Status</string>
+    <string name="description">Description</string>
+    <string name="name0">Name</string>
 
 
 </resources>

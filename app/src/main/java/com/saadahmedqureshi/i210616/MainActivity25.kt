@@ -49,7 +49,7 @@ class MainActivity25 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity14::class.java
+                    MainActivity26::class.java
                 )
             )
         }

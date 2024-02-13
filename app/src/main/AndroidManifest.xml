@@ -64,12 +64,6 @@
             android:name=".MainActivity21"
             android:exported="false" />
         <activity
-            android:name=".MainActivity14"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity8"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity7"
             android:exported="false" />
         <activity
