@@ -10,7 +10,7 @@ class MainActivity24 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val windowManager: WindowManager = window.windowManager
+
         val layoutParams = WindowManager.LayoutParams().apply {
             flags = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
         }
@@ -27,7 +27,7 @@ class MainActivity24 : AppCompatActivity() {
                     this,
                     MainActivity7::class.java
                 )
-            );
+            )
         }
     }
 }

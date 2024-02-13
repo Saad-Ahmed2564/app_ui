@@ -11,7 +11,7 @@ class MainActivity6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val windowManager: WindowManager = window.windowManager
+
         val layoutParams = WindowManager.LayoutParams().apply {
             flags = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
         }
@@ -28,7 +28,7 @@ class MainActivity6 : AppCompatActivity() {
                     this,
                     MainActivity2::class.java
                 )
-            );
+            )
         }
 
         val btn2=findViewById<Button>(R.id.reset_button)
@@ -40,10 +40,9 @@ class MainActivity6 : AppCompatActivity() {
                     this,
                     MainActivity2::class.java
                 )
-            );
+            )
         }
         val btn3=findViewById<Button>(R.id.back_forgot)
-
         btn3.setOnClickListener {
             startActivity(
 
@@ -51,7 +50,7 @@ class MainActivity6 : AppCompatActivity() {
                     this,
                     MainActivity5::class.java
                 )
-            );
+            )
         }
 
     }

@@ -3,22 +3,19 @@ package com.saadahmedqureshi.i210616
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
-import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
-import android.widget.TextView
-import android.widget.Toast
+
 
 class MainActivity9 : AppCompatActivity() {
     val players = arrayOf("Filter","Ascending","Descending")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val windowManager: WindowManager = window.windowManager
+
         val layoutParams = WindowManager.LayoutParams().apply {
             flags = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
         }
@@ -39,7 +36,7 @@ class MainActivity9 : AppCompatActivity() {
                     this,
                     MainActivity10::class.java
                 )
-            );
+            )
         }
 
 
@@ -53,7 +50,7 @@ class MainActivity9 : AppCompatActivity() {
                     this,
                     MainActivity7::class.java
                 )
-            );
+            )
         }
         val btn2=findViewById<Button>(R.id.search_button)
 
@@ -64,7 +61,7 @@ class MainActivity9 : AppCompatActivity() {
                     this,
                     MainActivity25::class.java
                 )
-            );
+            )
         }
         val btn3=findViewById<Button>(R.id.chat_button)
 
@@ -75,7 +72,7 @@ class MainActivity9 : AppCompatActivity() {
                     this,
                     MainActivity26::class.java
                 )
-            );
+            )
         }
 
         val btn4=findViewById<Button>(R.id.profile_button)
@@ -87,7 +84,7 @@ class MainActivity9 : AppCompatActivity() {
                     this,
                     MainActivity21::class.java
                 )
-            );
+            )
         }
 
         val btn5=findViewById<Button>(R.id.create_button)
@@ -99,7 +96,7 @@ class MainActivity9 : AppCompatActivity() {
                     this,
                     MainActivity12::class.java
                 )
-            );
+            )
         }
 
         val btn15=findViewById<Button>(R.id.back_Signup)
@@ -111,9 +108,7 @@ class MainActivity9 : AppCompatActivity() {
                     this,
                     MainActivity25::class.java
                 )
-            );
+            )
         }
-
-
     }
 }

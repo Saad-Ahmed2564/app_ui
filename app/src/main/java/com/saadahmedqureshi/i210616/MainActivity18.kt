@@ -10,7 +10,7 @@ class MainActivity18 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val windowManager: WindowManager = window.windowManager
+
         val layoutParams = WindowManager.LayoutParams().apply {
             flags = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
         }
@@ -27,7 +27,7 @@ class MainActivity18 : AppCompatActivity() {
                     this,
                     MainActivity17::class.java
                 )
-            );
+            )
         }
 
         val btn1=findViewById<Button>(R.id.photo_button2)
@@ -39,7 +39,7 @@ class MainActivity18 : AppCompatActivity() {
                     this,
                     MainActivity17::class.java
                 )
-            );
+            )
         }
 
         val btn2=findViewById<Button>(R.id.start_vid)
@@ -51,7 +51,7 @@ class MainActivity18 : AppCompatActivity() {
                     this,
                     MainActivity19::class.java
                 )
-            );
+            )
         }
 
         val btn3=findViewById<Button>(R.id.back)
@@ -63,7 +63,7 @@ class MainActivity18 : AppCompatActivity() {
                     this,
                     MainActivity12::class.java
                 )
-            );
+            )
         }
     }
 }

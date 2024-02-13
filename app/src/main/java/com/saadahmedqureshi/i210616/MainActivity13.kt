@@ -4,9 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Button
-import android.widget.CalendarView
 import androidx.appcompat.app.AppCompatActivity
-import java.util.Calendar
 
 class MainActivity13 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

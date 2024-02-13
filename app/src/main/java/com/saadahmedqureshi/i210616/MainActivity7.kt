@@ -10,7 +10,7 @@ class MainActivity7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val windowManager: WindowManager = window.windowManager
+
         val layoutParams = WindowManager.LayoutParams().apply {
             flags = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
         }
@@ -27,7 +27,7 @@ class MainActivity7 : AppCompatActivity() {
                     this,
                     MainActivity7::class.java
                 )
-            );
+            )
         }
         val btn2=findViewById<Button>(R.id.search_button)
 
@@ -38,7 +38,7 @@ class MainActivity7 : AppCompatActivity() {
                     this,
                     MainActivity25::class.java
                 )
-            );
+            )
         }
         val btn3=findViewById<Button>(R.id.chat_button)
 
@@ -49,7 +49,7 @@ class MainActivity7 : AppCompatActivity() {
                     this,
                     MainActivity26::class.java
                 )
-            );
+            )
         }
 
         val btn4=findViewById<Button>(R.id.profile_button)
@@ -61,7 +61,7 @@ class MainActivity7 : AppCompatActivity() {
                     this,
                     MainActivity21::class.java
                 )
-            );
+            )
         }
 
         val btn5=findViewById<Button>(R.id.create_button)
@@ -73,7 +73,7 @@ class MainActivity7 : AppCompatActivity() {
                     this,
                     MainActivity12::class.java
                 )
-            );
+            )
         }
 
         val btn6=findViewById<Button>(R.id.notifications)
@@ -85,7 +85,7 @@ class MainActivity7 : AppCompatActivity() {
                     this,
                     MainActivity24::class.java
                 )
-            );
+            )
         }
 
 

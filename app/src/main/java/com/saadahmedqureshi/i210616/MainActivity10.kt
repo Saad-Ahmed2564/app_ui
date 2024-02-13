@@ -28,7 +28,7 @@ class MainActivity10 : AppCompatActivity() {
                     this,
                     MainActivity11::class.java
                 )
-            );
+            )
         }
         val btn2=findViewById<Button>(R.id.back)
 
@@ -38,7 +38,7 @@ class MainActivity10 : AppCompatActivity() {
                     this,
                     MainActivity9::class.java
                 )
-            );
+            )
         }
 
         val btn3=findViewById<Button>(R.id.book_sess)
@@ -49,7 +49,7 @@ class MainActivity10 : AppCompatActivity() {
                     this,
                     MainActivity13::class.java
                 )
-            );
+            )
         }
     }
 }

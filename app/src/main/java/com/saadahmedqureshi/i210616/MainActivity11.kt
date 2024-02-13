@@ -5,13 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Button
-import android.widget.TextView
 
 class MainActivity11 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val windowManager: WindowManager = window.windowManager
+
         val layoutParams = WindowManager.LayoutParams().apply {
             flags = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
         }
@@ -28,7 +27,7 @@ class MainActivity11 : AppCompatActivity() {
                     this,
                     MainActivity10::class.java
                 )
-            );
+            )
         }
 
 
@@ -41,7 +40,7 @@ class MainActivity11 : AppCompatActivity() {
                     this,
                     MainActivity10::class.java
                 )
-            );
+            )
         }
 
     }

@@ -10,7 +10,7 @@ class MainActivity15 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val windowManager: WindowManager = window.windowManager
+
         val layoutParams = WindowManager.LayoutParams().apply {
             flags = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
         }
@@ -27,7 +27,7 @@ class MainActivity15 : AppCompatActivity() {
                     this,
                     MainActivity20::class.java
                 )
-            );
+            )
         }
 
         val btn2=findViewById<Button>(R.id.video_call)
@@ -39,7 +39,7 @@ class MainActivity15 : AppCompatActivity() {
                     this,
                     MainActivity19::class.java
                 )
-            );
+            )
         }
 
 
@@ -52,7 +52,7 @@ class MainActivity15 : AppCompatActivity() {
                     this,
                     MainActivity26::class.java
                 )
-            );
+            )
         }
 
 
@@ -65,7 +65,7 @@ class MainActivity15 : AppCompatActivity() {
                     this,
                     MainActivity7::class.java
                 )
-            );
+            )
         }
         val btn4=findViewById<Button>(R.id.search_button)
 
@@ -76,7 +76,7 @@ class MainActivity15 : AppCompatActivity() {
                     this,
                     MainActivity25::class.java
                 )
-            );
+            )
         }
         val btn5=findViewById<Button>(R.id.chat_button)
 
@@ -87,7 +87,7 @@ class MainActivity15 : AppCompatActivity() {
                     this,
                     MainActivity26::class.java
                 )
-            );
+            )
         }
 
         val btn6=findViewById<Button>(R.id.profile_button)
@@ -99,7 +99,7 @@ class MainActivity15 : AppCompatActivity() {
                     this,
                     MainActivity21::class.java
                 )
-            );
+            )
         }
 
         val btn7=findViewById<Button>(R.id.create_button)
@@ -111,7 +111,7 @@ class MainActivity15 : AppCompatActivity() {
                     this,
                     MainActivity12::class.java
                 )
-            );
+            )
         }
     }
 }
