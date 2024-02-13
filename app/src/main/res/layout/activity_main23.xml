@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#D7F7F6"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity23">
+
+
+    <View
+        android:id="@+id/circle1"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-90dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/circle"
+        android:clickable="false"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:cornerRadius="0dp" />
+
+    <View
+        android:id="@+id/circle2"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/circle"
+        android:clickable="false"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/back_profile"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/left_arrow_back_svgrepo_com"
+        android:backgroundTint="#155F64"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booked Sessions"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="70dp"
+        android:textSize="30sp"
+        android:textColor="#155F64"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/man3"
+        />
+    <View
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/women2"
+        />
+
+    <View
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:background="@drawable/emailbox"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="160dp"
+        />
+
+    <View
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:background="@drawable/emailbox"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="160dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Cooper"
+        android:textSize="17sp"
+        android:textColor="#155F64"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="235dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emma Phillips"
+        android:textSize="17sp"
+        android:textColor="#155F64"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="430dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UX Designer @ google"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="265dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24th Dec 2023"
+        android:textSize="13sp"
+        android:textColor="#FEBF0E"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="235dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1:00 pm"
+        android:textSize="13sp"
+        android:textColor="#FEBF0E"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="260dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1st Jan 2023"
+        android:textSize="13sp"
+        android:textColor="#FEBF0E"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09:00 pm"
+        android:textSize="13sp"
+        android:textColor="#FEBF0E"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="430dp"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>

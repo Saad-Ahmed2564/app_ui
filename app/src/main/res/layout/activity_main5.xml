@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7F7F6"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="@string/for_pass"
+        android:textColor="#155F64"
+        android:textSize="27sp" />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="155dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/worry"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="227dp"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/Email"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Enter_Email"
+        android:textColor="#585555"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:textSize="20sp"
+        android:background="@drawable/emailbox"
+        android:padding="10dp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/square"
+        android:backgroundTint="#155F64"
+        android:text="@string/se"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="425dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/Remember"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/log2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="425dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:textColor="#155F64"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/back_login"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/left_arrow_back_svgrepo_com"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="#155F64"
+        />
+
+
+</RelativeLayout>

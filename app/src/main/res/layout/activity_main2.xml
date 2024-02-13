@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF1F0"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/circle1"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-90dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/circle"
+        android:clickable="false"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:cornerRadius="0dp" />
+
+    <View
+        android:id="@+id/circle2"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/circle"
+        android:clickable="false"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/home2"
+        style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:fontFamily="@font/salsa"
+        android:text="@string/home2"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/home3"
+        style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:fontFamily="@font/salsa"
+        android:text="@string/home3"
+        android:textColor="#FEBF0E"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:layout_width="500dp"
+        android:layout_height="550dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/curved_square"
+         />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="@string/login"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/Email"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Enter_Email"
+        android:textColor="#585555"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:textSize="20sp"
+        android:background="@drawable/emailbox"
+        android:padding="15dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="470dp"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/Password"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Enter_Password"
+        android:textColor="#585555"
+        android:layout_marginTop="505dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:textSize="20sp"
+        android:background="@drawable/emailbox"
+        android:padding="15dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="570dp"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/forgot"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="630dp"
+        android:text="@string/login"
+        android:textColor="#44B6BD"
+        android:background="@drawable/square"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/dont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="750dp"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/don"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="750dp"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/Sign_Up"
+        android:linksClickable="true"
+        android:textColor="#155F64"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

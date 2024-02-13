@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1C1C1"
+    tools:context=".MainActivity19">
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#D7F7F6"
+    android:layout_marginTop="660dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/_50_08"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        />
+
+    <View
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:background="@drawable/curved_square_2"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="190dp"
+        />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="8dp"
+        android:background="@drawable/curved_square"
+        android:backgroundTint="#8E8E8E"
+        android:layout_marginTop="670dp"
+        android:layout_marginStart="130dp"
+        />
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle6"
+        android:backgroundTint="#155F64"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/mic_art"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="728dp"
+        android:layout_marginStart="38dp"
+        />
+
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle6"
+        android:backgroundTint="#155F64"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="130dp"
+        />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/no_video_art"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="728dp"
+        android:layout_marginStart="139dp"
+        />
+
+    <Button
+        android:id="@+id/reconnect"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle6"
+        android:backgroundTint="#155F64"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="230dp"
+        />
+
+    <Button
+        android:id="@+id/reconnect2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/loop_arrows"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="730dp"
+        android:layout_marginStart="242dp"
+        />
+
+    <Button
+        android:id="@+id/cancel_call2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle6"
+        android:backgroundTint="#930009"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="320dp"
+        />
+
+    <Button
+        android:id="@+id/cancel_call1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/cross_art"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="730dp"
+        android:layout_marginStart="332dp"
+        />
+
+
+
+
+</RelativeLayout>

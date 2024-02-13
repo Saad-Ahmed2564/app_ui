@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7F7F6"
+    tools:context=".MainActivity26">
+
+
+    <Button
+        android:id="@+id/back_Signup"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/left_arrow_back_svgrepo_com"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="93dp"
+        android:backgroundTint="#155F64"
+        />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chats"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="60dp"
+        android:textSize="35sp"
+        android:textColor="#155F64"
+        android:textStyle="bold"
+        />
+
+
+    <View
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="720dp"
+        android:background="#155F64"
+        />
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginStart="160dp"
+        android:background="@drawable/circle2"
+        />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/home_art"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="#439A96"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:layout_marginTop="760dp"
+        android:layout_marginStart="16dp"
+        android:textColor="#439A96"
+        />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/search_art"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="95dp"
+        android:backgroundTint="#439A96"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:layout_marginTop="760dp"
+        android:layout_marginStart="97dp"
+        android:textColor="#439A96"
+        />
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/icons8_plus"
+        android:layout_marginTop="690dp"
+        android:layout_marginStart="165dp"
+        android:backgroundTint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/chat_button"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/chat_art"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="250dp"
+        android:backgroundTint="#D7F7F6"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chat"
+        android:layout_marginTop="760dp"
+        android:layout_marginStart="255dp"
+        android:textColor="#D7F7F6"
+        />
+
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/profile_art"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="325dp"
+        android:backgroundTint="#439A96"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:layout_marginTop="760dp"
+        android:layout_marginStart="325dp"
+        android:textColor="#439A96"
+        />
+
+    <TextView
+        android:id="@+id/john_community"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_community"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/man1"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#ffca03"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="90dp"
+        android:src="@drawable/man10"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#ffca03"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="170dp"
+        android:src="@drawable/women3"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#ffca03"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="250dp"
+        android:src="@drawable/women9"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#ffca03"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="330dp"
+        android:src="@drawable/man5"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#ffca03"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/all_messages"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/man1"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/man12"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/women4"
+        />
+
+    <TextView
+        android:id="@+id/john_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/john_cooper"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="100dp"
+        android:textSize="25sp"
+        android:textColor="#155F64"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jack_watson"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="100dp"
+        android:textSize="25sp"
+        android:textColor="#155F64"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emma_phillips"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="100dp"
+        android:textSize="25sp"
+        android:textColor="#155F64"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_new_messages"
+        android:textSize="14sp"
+        android:textColor="#930009"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="390dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_new_messages"
+        android:textSize="14sp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="590dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_new_messages"
+        android:textSize="14sp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="490dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4fc3ca"
+        android:layout_marginTop="420dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4fc3ca"
+        android:layout_marginTop="520dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4fc3ca"
+        android:layout_marginTop="620dp"
+        />
+
+
+
+</RelativeLayout>

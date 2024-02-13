@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7F7F6"
+    tools:context=".MainActivity22">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#44B6BD"
+        />
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/left_arrow_back_svgrepo_com"
+        android:backgroundTint="#155F64"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profile"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="130dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FF000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#317A7D"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ali"
+        android:textColor="#585555"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="32dp"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:background="@drawable/emailbox"
+        android:inputType="text"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/email"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#317A7D"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ali_gmail_com"
+        android:textColor="#585555"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="32dp"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:background="@drawable/emailbox"
+        android:inputType="text"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/contact_number"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#317A7D"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/_92_321_2242022"
+        android:textColor="#585555"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="32dp"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:background="@drawable/emailbox"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/countr"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#317A7D"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pakistan"
+        android:textColor="#585555"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="32dp"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:background="@drawable/emailbox"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/cit"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#317A7D"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/islamabad"
+        android:textColor="#585555"
+        android:layout_marginTop="630dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="32dp"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:background="@drawable/emailbox"
+        android:inputType="text"
+        />
+
+
+    <Button
+        android:id="@+id/update_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="705dp"
+        android:text="@string/update_profile"
+        android:textColor="@color/white"
+        android:background="@drawable/square"
+        android:backgroundTint="#155F64"
+        android:clickable="true"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
