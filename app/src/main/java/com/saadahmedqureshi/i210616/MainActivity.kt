@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
-import android.widget.RelativeLayout
 import android.widget.TextView
 
 class Main : AppCompatActivity() {
@@ -20,7 +19,7 @@ class Main : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.splash_screen)
 
         Handler().postDelayed({
             // Intent to start the LoginPage activity

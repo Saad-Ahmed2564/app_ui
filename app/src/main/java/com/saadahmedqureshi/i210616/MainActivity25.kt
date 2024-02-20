@@ -17,7 +17,7 @@ class MainActivity25 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.activity_main25)
+        setContentView(R.layout.search)
 
 
         val btn=findViewById<Button>(R.id.home_button)

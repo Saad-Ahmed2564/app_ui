@@ -17,7 +17,7 @@ class MainActivity22 : AppCompatActivity() {
         window.attributes = layoutParams
 
 
-        setContentView(R.layout.activity_main22)
+        setContentView(R.layout.edit_profile)
 
 
         val btn6=findViewById<Button>(R.id.back2)

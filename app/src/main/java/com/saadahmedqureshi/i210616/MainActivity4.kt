@@ -16,7 +16,7 @@ class MainActivity4 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.activity_main4)
+        setContentView(R.layout.verify)
 
 
         val btn=findViewById<TextView>(R.id.verify_button)

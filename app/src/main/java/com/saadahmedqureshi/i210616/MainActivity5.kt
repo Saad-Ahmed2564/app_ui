@@ -16,7 +16,7 @@ class MainActivity5 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.activity_main5)
+        setContentView(R.layout.forgot_password)
 
         val btn2=findViewById<Button>(R.id.send_button)
 

@@ -17,7 +17,7 @@ class MainActivity12 : AppCompatActivity() {
         window.attributes = layoutParams
 
 
-        setContentView(R.layout.activity_main12)
+        setContentView(R.layout.add_new_mentor)
 
 
         val btn10=findViewById<Button>(R.id.take_video)

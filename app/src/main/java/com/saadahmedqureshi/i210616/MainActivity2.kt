@@ -20,7 +20,7 @@ class MainActivity2 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.login)
 
 
         val home2 = findViewById<TextView>(R.id.home2)

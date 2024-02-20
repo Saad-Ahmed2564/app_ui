@@ -16,7 +16,7 @@ class MainActivity11 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.activity_main11)
+        setContentView(R.layout.mentor_review)
 
         val btn1=findViewById<Button>(R.id.back_mentor)
 

@@ -16,7 +16,7 @@ class MainActivity19 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.activity_main19)
+        setContentView(R.layout.video_call)
 
         val btn=findViewById<Button>(R.id.reconnect)
 
