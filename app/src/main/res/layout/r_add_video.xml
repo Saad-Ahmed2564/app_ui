@@ -139,7 +139,7 @@
         android:id="@+id/photo_button1"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:background="@drawable/camara_art"
+        android:background="@drawable/photo_button"
         android:backgroundTint="@color/white"
         android:layout_marginTop="668dp"
         android:layout_marginStart="295dp"

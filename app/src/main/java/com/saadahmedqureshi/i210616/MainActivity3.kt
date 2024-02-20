@@ -20,7 +20,7 @@ class MainActivity3 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.signup)
+        setContentView(R.layout.c_signup)
 
         val btn=findViewById<Button>(R.id.sign_up_button)
 

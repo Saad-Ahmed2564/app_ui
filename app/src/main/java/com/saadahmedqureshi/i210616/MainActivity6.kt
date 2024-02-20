@@ -17,7 +17,7 @@ class MainActivity6 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.reset_password)
+        setContentView(R.layout.f_reset_password)
 
         val btn=findViewById<TextView>(R.id.log3)
 

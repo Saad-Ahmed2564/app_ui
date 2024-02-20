@@ -19,7 +19,7 @@
         android:id="@+id/phone_call"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:background="@drawable/call"
+        android:background="@drawable/audio_call_button"
         android:backgroundTint="@color/white"
         android:layout_marginStart="295dp"
         android:layout_marginTop="83dp"

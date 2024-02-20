@@ -17,7 +17,7 @@ class MainActivity10 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.mentor_profile)
+        setContentView(R.layout.j_mentor_profile)
 
         val btn1=findViewById<TextView>(R.id.review)
 

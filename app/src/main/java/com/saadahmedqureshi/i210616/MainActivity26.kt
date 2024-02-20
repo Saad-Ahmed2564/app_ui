@@ -18,7 +18,7 @@ class MainActivity26 : AppCompatActivity() {
         window.attributes = layoutParams
 
 
-        setContentView(R.layout.chat)
+        setContentView(R.layout.n_chat)
 
         val btn=findViewById<Button>(R.id.home_button)
 

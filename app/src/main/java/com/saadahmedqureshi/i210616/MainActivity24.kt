@@ -16,7 +16,7 @@ class MainActivity24 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.notifications)
+        setContentView(R.layout.x_notifications)
 
         val btn1=findViewById<Button>(R.id.back_home)
 

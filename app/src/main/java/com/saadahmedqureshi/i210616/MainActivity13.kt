@@ -16,7 +16,7 @@ class MainActivity13 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.book_session)
+        setContentView(R.layout.m_book_session)
 
 
         val btn1=findViewById<Button>(R.id.back_mentor)

@@ -16,7 +16,7 @@ class MainActivity20 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.audio_call)
+        setContentView(R.layout.t_audio_call)
 
         val btn1=findViewById<Button>(R.id.cancel_call_1)
 

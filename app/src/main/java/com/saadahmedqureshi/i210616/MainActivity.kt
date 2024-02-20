@@ -19,7 +19,7 @@ class Main : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.splash_screen)
+        setContentView(R.layout.a_splash_screen)
 
         Handler().postDelayed({
             // Intent to start the LoginPage activity

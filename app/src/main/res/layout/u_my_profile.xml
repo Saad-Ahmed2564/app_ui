@@ -109,7 +109,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:backgroundTint="#615F5F"
-        android:background="@drawable/baseline_location_pin_24"
+        android:background="@drawable/location_pin"
         android:layout_marginTop="280dp"
         android:layout_marginStart="35dp"
         />

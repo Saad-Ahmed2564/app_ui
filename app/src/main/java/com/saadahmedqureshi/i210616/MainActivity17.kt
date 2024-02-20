@@ -15,7 +15,7 @@ class MainActivity17 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.add_photo)
+        setContentView(R.layout.q_add_photo)
 
         val btn=findViewById<Button>(R.id.video)
 

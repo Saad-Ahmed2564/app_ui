@@ -16,7 +16,7 @@ class MainActivity23 : AppCompatActivity() {
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.booked_sessions)
+        setContentView(R.layout.w_booked_sessions)
 
         val btn6=findViewById<Button>(R.id.back_profile)
 

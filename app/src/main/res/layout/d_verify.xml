@@ -264,7 +264,7 @@
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:background="@drawable/baseline_backspace_24"
+        android:background="@drawable/backspace"
         android:backgroundTint="@color/white"
         android:layout_marginTop="700dp"
         android:layout_marginStart="300dp"

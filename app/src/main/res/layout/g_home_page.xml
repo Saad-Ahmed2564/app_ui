@@ -69,7 +69,7 @@
         android:id="@+id/notifications"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:background="@drawable/baseline_circle_notifications_24"
+        android:background="@drawable/notification_button"
         android:layout_marginTop="105dp"
         android:layout_marginStart="340dp"
         android:backgroundTint="#155F64"
