@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Button
 
-class MainActivity7 : AppCompatActivity() {
+class g_home_page : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -25,7 +25,7 @@ class MainActivity7 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity7::class.java
+                    g_home_page::class.java
                 )
             )
         }
@@ -36,7 +36,7 @@ class MainActivity7 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity25::class.java
+                    h_search::class.java
                 )
             )
         }
@@ -47,7 +47,7 @@ class MainActivity7 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity26::class.java
+                    n_chat::class.java
                 )
             )
         }
@@ -59,7 +59,7 @@ class MainActivity7 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity21::class.java
+                    u_my_profile::class.java
                 )
             )
         }
@@ -71,7 +71,7 @@ class MainActivity7 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity12::class.java
+                    l_add_new_mentor::class.java
                 )
             )
         }
@@ -83,7 +83,7 @@ class MainActivity7 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity24::class.java
+                    x_notifications::class.java
                 )
             )
         }

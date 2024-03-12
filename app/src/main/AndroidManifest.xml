@@ -13,73 +13,73 @@
         android:theme="@style/Theme.I210616"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity26"
+            android:name=".n_chat"
             android:exported="false" />
         <activity
-            android:name=".MainActivity13"
+            android:name=".m_book_session"
             android:exported="false" />
         <activity
-            android:name=".MainActivity12"
+            android:name=".l_add_new_mentor"
             android:exported="false" />
         <activity
-            android:name=".MainActivity11"
+            android:name=".k_mentor_review"
             android:exported="false" />
         <activity
-            android:name=".MainActivity10"
+            android:name=".j_mentor_profile"
             android:exported="false" />
         <activity
-            android:name=".MainActivity15"
+            android:name=".o_mentor_chat"
             android:exported="false" />
         <activity
-            android:name=".MainActivity25"
+            android:name=".h_search"
             android:exported="false" />
         <activity
             android:name=".MainActivity9"
             android:exported="false" />
         <activity
-            android:name=".MainActivity24"
+            android:name=".x_notifications"
             android:exported="false" />
         <activity
-            android:name=".MainActivity16"
+            android:name=".p_mentor_community_chat"
             android:exported="false" />
         <activity
-            android:name=".MainActivity23"
+            android:name=".w_booked_sessions"
             android:exported="false" />
         <activity
-            android:name=".MainActivity22"
+            android:name=".v_edit_profile"
             android:exported="false" />
         <activity
-            android:name=".MainActivity20"
+            android:name=".t_audio_call"
             android:exported="false" />
         <activity
-            android:name=".MainActivity19"
+            android:name=".s_video_call"
             android:exported="false" />
         <activity
-            android:name=".MainActivity18"
+            android:name=".r_add_video"
             android:exported="false" />
         <activity
-            android:name=".MainActivity17"
+            android:name=".q_add_photo"
             android:exported="false" />
         <activity
-            android:name=".MainActivity21"
+            android:name=".u_my_profile"
             android:exported="false" />
         <activity
-            android:name=".MainActivity7"
+            android:name=".g_home_page"
             android:exported="false" />
         <activity
-            android:name=".MainActivity6"
+            android:name=".f_reset_password"
             android:exported="false" />
         <activity
-            android:name=".MainActivity5"
+            android:name=".e_forgot_password"
             android:exported="false" />
         <activity
-            android:name=".MainActivity4"
+            android:name=".d_verify"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".c_signup"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".b_Login"
             android:exported="false" />
         <activity
             android:name=".Main"

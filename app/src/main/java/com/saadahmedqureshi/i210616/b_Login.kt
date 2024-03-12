@@ -11,7 +11,7 @@ import android.widget.Button
 import android.widget.TextView
 
 
-class MainActivity2 : AppCompatActivity() {
+class b_Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -41,7 +41,7 @@ class MainActivity2 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity3::class.java
+                    c_signup::class.java
                 )
             )
         }
@@ -53,7 +53,7 @@ class MainActivity2 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity7::class.java
+                    g_home_page::class.java
                 )
             )
         }
@@ -65,7 +65,7 @@ class MainActivity2 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity5::class.java
+                    e_forgot_password::class.java
                 )
             )
         }

@@ -6,51 +6,33 @@ import android.graphics.LinearGradient
 import android.graphics.Shader
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.view.WindowManager
-import android.widget.Button
 import android.widget.TextView
 
-class MainActivity3 : AppCompatActivity() {
+class Main : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
 
         val layoutParams = WindowManager.LayoutParams().apply {
             flags = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
         }
         window.attributes = layoutParams
 
-        setContentView(R.layout.c_signup)
+        setContentView(R.layout.a_splash_screen)
 
-        val btn=findViewById<Button>(R.id.sign_up_button)
-
-        btn.setOnClickListener {
-            startActivity(
-
-                Intent(
-                    this,
-                    MainActivity4::class.java
-                )
-            )
-        }
-
-        val btn2=findViewById<TextView>(R.id.log)
-
-        btn2.setOnClickListener {
-            startActivity(
-
-                Intent(
-                    this,
-                    MainActivity2::class.java
-                )
-            )
-        }
+        Handler().postDelayed({
+            // Intent to start the LoginPage activity
+            val loginIntent = Intent(this, b_Login::class.java)
+            startActivity(loginIntent)
+            finish() // Destroy this activity so the user can't return to it
+        }, 5000)
 
         val home2 = findViewById<TextView>(R.id.home2)
         home2.paint.shader = LinearGradient(
             0f,0f,0f,home2.textSize, intArrayOf(
-                Color.parseColor("#3EBEC5"),
-                Color.parseColor("#268E93")
+                Color.parseColor("#35B3BB"),
+                Color.parseColor("#1F7E86")
 
             ), null, Shader.TileMode.REPEAT
         )

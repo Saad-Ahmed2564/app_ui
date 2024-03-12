@@ -7,7 +7,7 @@ import android.view.WindowManager
 import android.widget.Button
 import android.widget.TextView
 
-class MainActivity5 : AppCompatActivity() {
+class e_forgot_password : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -25,7 +25,7 @@ class MainActivity5 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity6::class.java
+                    f_reset_password::class.java
                 )
             )
         }
@@ -37,7 +37,7 @@ class MainActivity5 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity2::class.java
+                    b_Login::class.java
                 )
             )
         }
@@ -49,7 +49,7 @@ class MainActivity5 : AppCompatActivity() {
 
                 Intent(
                     this,
-                    MainActivity2::class.java
+                    b_Login::class.java
                 )
             )
         }
